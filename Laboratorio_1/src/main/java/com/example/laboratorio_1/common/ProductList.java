@@ -17,7 +17,7 @@ public class ProductList {
                 .id(1L)
                 .nombre("Pollo")
                 .categoria("Comida")
-                .precio(850.50)
+                .precio(85)
                 .direccion("Volcán de Eldin")
                 .rareza("Raro")
                 .build());
@@ -26,7 +26,7 @@ public class ProductList {
                 .id(2L)
                 .nombre("Diamante")
                 .categoria("Mineral")
-                .precio(850.50)
+                .precio(15)
                 .direccion("Volcán de Eldin")
                 .rareza("Poco Común")
                 .build());
@@ -35,7 +35,7 @@ public class ProductList {
                 .id(3L)
                 .nombre("Tiburon")
                 .categoria("Parte de Monstruo")
-                .precio(850.50)
+                .precio(10)
                 .direccion("Cordillera de Hebra")
                 .rareza("Legendario")
                 .build());
@@ -44,7 +44,7 @@ public class ProductList {
                 .id(4L)
                 .nombre("Flor princesa")
                 .categoria("Planta")
-                .precio(850.50)
+                .precio(5)
                 .direccion("Desierto Gerudo")
                 .rareza("Común")
                 .build());
