@@ -66,4 +66,5 @@ public class ProductServiceImpl implements ProductService {
                 .filter(p -> Boolean.TRUE.equals(p.getIsActive()))
                 .collect(Collectors.toList());
     }
+
 }

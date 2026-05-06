@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -67,6 +66,12 @@ public class ProductController {
     @GetMapping("/active")
     public ResponseEntity<List<Product>> getActive() {
         return ResponseEntity.ok(productService.getActiveSorcerers());
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> delete(@PathVariable UUID id) {
+        productService.deleteProduct(id);
+        return ResponseEntity.noContent().build();
     }
 }
 
