@@ -1,4 +1,4 @@
-package com.example.laboratorio_2.domain.enttity;
+package com.example.laboratorio_2.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import java.util.UUID;
 
 @Entity
-@Table(name = "sorcerers")
+@Table(name = "product")
 @Data
 @Builder
 @AllArgsConstructor

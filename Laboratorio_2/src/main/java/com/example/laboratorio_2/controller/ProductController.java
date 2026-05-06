@@ -1,6 +1,6 @@
 package com.example.laboratorio_2.controller;
 
-import com.example.laboratorio_2.domain.enttity.Product;
+import com.example.laboratorio_2.domain.entity.Product;
 import com.example.laboratorio_2.service.impl.ProductServiceImpl;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -68,6 +68,7 @@ public class ProductController {
         return ResponseEntity.ok(productService.getActiveSorcerers());
     }
 
+    // delete
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable UUID id) {
         productService.deleteProduct(id);

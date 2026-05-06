@@ -1,6 +1,6 @@
 package com.example.laboratorio_2.service;
 
-import com.example.laboratorio_2.domain.enttity.Product;
+import com.example.laboratorio_2.domain.entity.Product;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;

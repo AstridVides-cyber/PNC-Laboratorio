@@ -1,6 +1,6 @@
 package com.example.laboratorio_2.service.impl;
 
-import com.example.laboratorio_2.domain.enttity.Product;
+import com.example.laboratorio_2.domain.entity.Product;
 import com.example.laboratorio_2.repository.ProductRepository;
 import com.example.laboratorio_2.service.ProductService;
 import lombok.AllArgsConstructor;
