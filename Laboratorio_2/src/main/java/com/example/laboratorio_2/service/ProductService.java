@@ -13,4 +13,5 @@ public interface ProductService {
     List<Product> getBySchool(String school);
     List<Product> getByGrade(String grade);
     List<Product> getActiveSorcerers();
+    void deleteProduct(UUID id);
 }
