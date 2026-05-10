@@ -7,11 +7,11 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Builder
-AllArgsConstructor
+@AllArgsConstructor
 @NoArgsConstructor
 public class PlatoRequestDTO {
     private String nombre;
-    private String description;
+    private String descripcion;
     private Double precio;
     private Boolean disponible;
 
