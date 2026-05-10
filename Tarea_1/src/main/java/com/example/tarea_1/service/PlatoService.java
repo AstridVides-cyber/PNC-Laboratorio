@@ -2,7 +2,6 @@ package com.example.tarea_1.service;
 
 import com.example.tarea_1.dto.PlatoRequestDTO;
 import com.example.tarea_1.dto.PlatoResponseDTO;
-
 import java.util.List;
 
 public interface PlatoService {
